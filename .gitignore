@@ -1,0 +1,68 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build outputs / binaries
+bin/
+build/
+dist/
+Debug/
+Release/
+obj/
+out/
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.exp
+*.pdb
+*.ilk
+*.idb
+*.stackdump
+*.log
+
+# Object / intermediate files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+
+# CMake / make
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+compile_commands.json
+Makefile
+*.make
+
+# IDE / editor cruft
+.vscode/
+.idea/
+.vs/
+*.code-workspace
+*.user
+*.suo
+*.ncb
+*.sln
+*.vcxproj*
+*.ipch
+*.pch
+
+# Python cache (safe default)
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
+.env.*
+
+# Misc
+*.tmp
